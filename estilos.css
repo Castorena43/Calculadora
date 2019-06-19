@@ -1,0 +1,34 @@
+body{
+    background-color: #2F4F4F;
+    color: #fff;
+}
+.cuadro{
+    background-color: rgb(49, 86, 141);
+    padding: 15px;
+    border: 1px solid #fff;
+    text-align: center;
+    font-size: 25px;
+    line-height: 2;
+}
+.entrada{
+    background-color: #696969;
+    height: 80px;
+    border: 1px solid #fff;
+    text-align: right;
+    font-size: 35px;
+    line-height: 2;
+}
+.contenedor{
+    width: 25%;
+    margin: 50px auto;
+}
+.color{
+    background-color: rgb(39, 39, 39);
+
+}
+.color1{
+    background-color: #D2691E;
+}
+.color2{
+    background-color: #D2691E;
+}
