@@ -21,7 +21,7 @@ $(document).ready(function(){
     })
     $('.igual').click(function(){
         num2 = $('.entrada').val();
-        resul;
+       
         switch(op){
             case 'X':
                 resul = parseFloat(num1) * parseFloat(num2);
@@ -40,6 +40,11 @@ $(document).ready(function(){
                 $('.entrada').val(resul);
                 break;
         }
+    })
+    $('.minus').click(function(){
+        var minus = $('.entrada').val();
+        var res = parseFloat(minus) * -1;
+        $('.entrada').val(res);
     })
 
     
